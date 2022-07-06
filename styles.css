@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    background-color: plum;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContainer {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.magnifyingGlass {
+    position: absolute;
+    margin-right: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.searchBar {
+    padding: 12.5px;
+    outline: none;
+    border: none;
+    width: 20px;
+    transition: width 1s ease;
+    font-size: 15px;
+}
+
+.searchBar.visible {
+    width: 200px;
+    transition: width 1s ease;
+}
+
